@@ -7,7 +7,7 @@ SP = 4
 
 DEPS = cowboy grpc_lib
 # Use the cowboy version that has support for trailers.
-dep_cowboy_commit = master
+dep_cowboy_commit = 2.7.0
 dep_grpc_lib = git https://github.com/Bluehouse-Technology/grpc_lib
 
 TEST_DEPS = grpc_client
